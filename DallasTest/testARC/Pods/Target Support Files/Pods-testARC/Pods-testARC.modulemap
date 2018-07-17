@@ -1,0 +1,6 @@
+framework module Pods_testARC {
+  umbrella header "Pods-testARC-umbrella.h"
+
+  export *
+  module * { export * }
+}

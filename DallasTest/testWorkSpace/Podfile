@@ -1,0 +1,15 @@
+workspace 'workSpace'
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+xcodeproj 'project(OC)/project(OC).xcodeproj'
+
+target 'project(OC)' do
+
+pod ‘Masonry’
+
+end
+
+target 'testFrameWork' do
+ xcodeproj 'testFrameWork/testFrameWork.xcodeproj'
+end

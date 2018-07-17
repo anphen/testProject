@@ -1,0 +1,22 @@
+source "https://github.com/CocoaPods/Specs.git"
+platform :ios, "8.0"
+use_frameworks!
+
+target "Swift_Storyboard" do
+#提示
+pod 'SVProgressHUD'
+#左边滚动pop
+pod 'FDFullscreenPopGesture'
+#自动布局
+pod 'SnapKit'
+#图片下载
+pod 'Kingfisher'
+#网络请求
+pod 'Alamofire'
+#json操作
+pod 'SwiftyJSON'
+
+pod 'Toast-Swift'
+
+end
+

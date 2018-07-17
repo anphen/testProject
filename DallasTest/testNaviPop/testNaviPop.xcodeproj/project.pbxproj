@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93CFFC1D9690F73C50F8AD25 /* libPods-testNaviPop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C090913D706E7BCE3D069364 /* libPods-testNaviPop.a */; };
+		FBFE55B81EEFDD2B00461DC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFE55B71EEFDD2B00461DC5 /* main.m */; };
+		FBFE55BB1EEFDD2B00461DC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFE55BA1EEFDD2B00461DC5 /* AppDelegate.m */; };
+		FBFE55BE1EEFDD2B00461DC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFE55BD1EEFDD2B00461DC5 /* ViewController.m */; };
+		FBFE55C11EEFDD2B00461DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFE55BF1EEFDD2B00461DC5 /* Main.storyboard */; };
+		FBFE55C31EEFDD2B00461DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBFE55C21EEFDD2B00461DC5 /* Assets.xcassets */; };
+		FBFE55C61EEFDD2B00461DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFE55C41EEFDD2B00461DC5 /* LaunchScreen.storyboard */; };
+		FBFE55D11EEFDD2B00461DC5 /* testNaviPopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFE55D01EEFDD2B00461DC5 /* testNaviPopTests.m */; };
+		FBFE55DC1EEFDD2B00461DC5 /* testNaviPopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFE55DB1EEFDD2B00461DC5 /* testNaviPopUITests.m */; };
+		FBFE55EB1EEFDD6700461DC5 /* ZXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFE55EA1EEFDD6700461DC5 /* ZXNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBFE55CD1EEFDD2B00461DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBFE55AB1EEFDD2B00461DC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBFE55B21EEFDD2B00461DC5;
+			remoteInfo = testNaviPop;
+		};
+		FBFE55D81EEFDD2B00461DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBFE55AB1EEFDD2B00461DC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBFE55B21EEFDD2B00461DC5;
+			remoteInfo = testNaviPop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B38988BFE89C22B6A7D2650 /* Pods-testNaviPop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testNaviPop.release.xcconfig"; path = "Pods/Target Support Files/Pods-testNaviPop/Pods-testNaviPop.release.xcconfig"; sourceTree = "<group>"; };
+		C090913D706E7BCE3D069364 /* libPods-testNaviPop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testNaviPop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41E4374C0A670349EFA6E35 /* Pods-testNaviPop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testNaviPop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testNaviPop/Pods-testNaviPop.debug.xcconfig"; sourceTree = "<group>"; };
+		FBFE55B31EEFDD2B00461DC5 /* testNaviPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testNaviPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFE55B71EEFDD2B00461DC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBFE55B91EEFDD2B00461DC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBFE55BA1EEFDD2B00461DC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBFE55BC1EEFDD2B00461DC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBFE55BD1EEFDD2B00461DC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBFE55C01EEFDD2B00461DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBFE55C21EEFDD2B00461DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBFE55C51EEFDD2B00461DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBFE55C71EEFDD2B00461DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBFE55CC1EEFDD2B00461DC5 /* testNaviPopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testNaviPopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFE55D01EEFDD2B00461DC5 /* testNaviPopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testNaviPopTests.m; sourceTree = "<group>"; };
+		FBFE55D21EEFDD2B00461DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBFE55D71EEFDD2B00461DC5 /* testNaviPopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testNaviPopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFE55DB1EEFDD2B00461DC5 /* testNaviPopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testNaviPopUITests.m; sourceTree = "<group>"; };
+		FBFE55DD1EEFDD2B00461DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBFE55E91EEFDD6700461DC5 /* ZXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXNavigationController.h; sourceTree = "<group>"; };
+		FBFE55EA1EEFDD6700461DC5 /* ZXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBFE55B01EEFDD2B00461DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CFFC1D9690F73C50F8AD25 /* libPods-testNaviPop.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFE55C91EEFDD2B00461DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFE55D41EEFDD2B00461DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57D68101409F2EE55497F4E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C090913D706E7BCE3D069364 /* libPods-testNaviPop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3286CF82625F1C7A81535B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C41E4374C0A670349EFA6E35 /* Pods-testNaviPop.debug.xcconfig */,
+				6B38988BFE89C22B6A7D2650 /* Pods-testNaviPop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBFE55AA1EEFDD2B00461DC5 = {
+			isa = PBXGroup;
+			children = (
+				FBFE55B51EEFDD2B00461DC5 /* testNaviPop */,
+				FBFE55CF1EEFDD2B00461DC5 /* testNaviPopTests */,
+				FBFE55DA1EEFDD2B00461DC5 /* testNaviPopUITests */,
+				FBFE55B41EEFDD2B00461DC5 /* Products */,
+				C3286CF82625F1C7A81535B0 /* Pods */,
+				57D68101409F2EE55497F4E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBFE55B41EEFDD2B00461DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBFE55B31EEFDD2B00461DC5 /* testNaviPop.app */,
+				FBFE55CC1EEFDD2B00461DC5 /* testNaviPopTests.xctest */,
+				FBFE55D71EEFDD2B00461DC5 /* testNaviPopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBFE55B51EEFDD2B00461DC5 /* testNaviPop */ = {
+			isa = PBXGroup;
+			children = (
+				FBFE55B91EEFDD2B00461DC5 /* AppDelegate.h */,
+				FBFE55BA1EEFDD2B00461DC5 /* AppDelegate.m */,
+				FBFE55BC1EEFDD2B00461DC5 /* ViewController.h */,
+				FBFE55BD1EEFDD2B00461DC5 /* ViewController.m */,
+				FBFE55E91EEFDD6700461DC5 /* ZXNavigationController.h */,
+				FBFE55EA1EEFDD6700461DC5 /* ZXNavigationController.m */,
+				FBFE55BF1EEFDD2B00461DC5 /* Main.storyboard */,
+				FBFE55C21EEFDD2B00461DC5 /* Assets.xcassets */,
+				FBFE55C41EEFDD2B00461DC5 /* LaunchScreen.storyboard */,
+				FBFE55C71EEFDD2B00461DC5 /* Info.plist */,
+				FBFE55B61EEFDD2B00461DC5 /* Supporting Files */,
+			);
+			path = testNaviPop;
+			sourceTree = "<group>";
+		};
+		FBFE55B61EEFDD2B00461DC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBFE55B71EEFDD2B00461DC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBFE55CF1EEFDD2B00461DC5 /* testNaviPopTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBFE55D01EEFDD2B00461DC5 /* testNaviPopTests.m */,
+				FBFE55D21EEFDD2B00461DC5 /* Info.plist */,
+			);
+			path = testNaviPopTests;
+			sourceTree = "<group>";
+		};
+		FBFE55DA1EEFDD2B00461DC5 /* testNaviPopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBFE55DB1EEFDD2B00461DC5 /* testNaviPopUITests.m */,
+				FBFE55DD1EEFDD2B00461DC5 /* Info.plist */,
+			);
+			path = testNaviPopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBFE55B21EEFDD2B00461DC5 /* testNaviPop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFE55E01EEFDD2B00461DC5 /* Build configuration list for PBXNativeTarget "testNaviPop" */;
+			buildPhases = (
+				EC7E57982D9CBB95CE8AB005 /* 📦 Check Pods Manifest.lock */,
+				FBFE55AF1EEFDD2B00461DC5 /* Sources */,
+				FBFE55B01EEFDD2B00461DC5 /* Frameworks */,
+				FBFE55B11EEFDD2B00461DC5 /* Resources */,
+				C0C67F0629548282E74F82DF /* 📦 Embed Pods Frameworks */,
+				C6FF1B05CFD2A9B5E1CC2EED /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testNaviPop;
+			productName = testNaviPop;
+			productReference = FBFE55B31EEFDD2B00461DC5 /* testNaviPop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBFE55CB1EEFDD2B00461DC5 /* testNaviPopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFE55E31EEFDD2B00461DC5 /* Build configuration list for PBXNativeTarget "testNaviPopTests" */;
+			buildPhases = (
+				FBFE55C81EEFDD2B00461DC5 /* Sources */,
+				FBFE55C91EEFDD2B00461DC5 /* Frameworks */,
+				FBFE55CA1EEFDD2B00461DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBFE55CE1EEFDD2B00461DC5 /* PBXTargetDependency */,
+			);
+			name = testNaviPopTests;
+			productName = testNaviPopTests;
+			productReference = FBFE55CC1EEFDD2B00461DC5 /* testNaviPopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBFE55D61EEFDD2B00461DC5 /* testNaviPopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFE55E61EEFDD2B00461DC5 /* Build configuration list for PBXNativeTarget "testNaviPopUITests" */;
+			buildPhases = (
+				FBFE55D31EEFDD2B00461DC5 /* Sources */,
+				FBFE55D41EEFDD2B00461DC5 /* Frameworks */,
+				FBFE55D51EEFDD2B00461DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBFE55D91EEFDD2B00461DC5 /* PBXTargetDependency */,
+			);
+			name = testNaviPopUITests;
+			productName = testNaviPopUITests;
+			productReference = FBFE55D71EEFDD2B00461DC5 /* testNaviPopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBFE55AB1EEFDD2B00461DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Suning;
+				TargetAttributes = {
+					FBFE55B21EEFDD2B00461DC5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 92U93F5ZFJ;
+						ProvisioningStyle = Automatic;
+					};
+					FBFE55CB1EEFDD2B00461DC5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 92U93F5ZFJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FBFE55B21EEFDD2B00461DC5;
+					};
+					FBFE55D61EEFDD2B00461DC5 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 92U93F5ZFJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FBFE55B21EEFDD2B00461DC5;
+					};
+				};
+			};
+			buildConfigurationList = FBFE55AE1EEFDD2B00461DC5 /* Build configuration list for PBXProject "testNaviPop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBFE55AA1EEFDD2B00461DC5;
+			productRefGroup = FBFE55B41EEFDD2B00461DC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBFE55B21EEFDD2B00461DC5 /* testNaviPop */,
+				FBFE55CB1EEFDD2B00461DC5 /* testNaviPopTests */,
+				FBFE55D61EEFDD2B00461DC5 /* testNaviPopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBFE55B11EEFDD2B00461DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFE55C61EEFDD2B00461DC5 /* LaunchScreen.storyboard in Resources */,
+				FBFE55C31EEFDD2B00461DC5 /* Assets.xcassets in Resources */,
+				FBFE55C11EEFDD2B00461DC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFE55CA1EEFDD2B00461DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFE55D51EEFDD2B00461DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0C67F0629548282E74F82DF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testNaviPop/Pods-testNaviPop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6FF1B05CFD2A9B5E1CC2EED /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testNaviPop/Pods-testNaviPop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC7E57982D9CBB95CE8AB005 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBFE55AF1EEFDD2B00461DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFE55BE1EEFDD2B00461DC5 /* ViewController.m in Sources */,
+				FBFE55EB1EEFDD6700461DC5 /* ZXNavigationController.m in Sources */,
+				FBFE55BB1EEFDD2B00461DC5 /* AppDelegate.m in Sources */,
+				FBFE55B81EEFDD2B00461DC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFE55C81EEFDD2B00461DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFE55D11EEFDD2B00461DC5 /* testNaviPopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFE55D31EEFDD2B00461DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFE55DC1EEFDD2B00461DC5 /* testNaviPopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBFE55CE1EEFDD2B00461DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBFE55B21EEFDD2B00461DC5 /* testNaviPop */;
+			targetProxy = FBFE55CD1EEFDD2B00461DC5 /* PBXContainerItemProxy */;
+		};
+		FBFE55D91EEFDD2B00461DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBFE55B21EEFDD2B00461DC5 /* testNaviPop */;
+			targetProxy = FBFE55D81EEFDD2B00461DC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBFE55BF1EEFDD2B00461DC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBFE55C01EEFDD2B00461DC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBFE55C41EEFDD2B00461DC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBFE55C51EEFDD2B00461DC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBFE55DE1EEFDD2B00461DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBFE55DF1EEFDD2B00461DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBFE55E11EEFDD2B00461DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C41E4374C0A670349EFA6E35 /* Pods-testNaviPop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92U93F5ZFJ;
+				INFOPLIST_FILE = testNaviPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suning.testNaviPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBFE55E21EEFDD2B00461DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B38988BFE89C22B6A7D2650 /* Pods-testNaviPop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92U93F5ZFJ;
+				INFOPLIST_FILE = testNaviPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suning.testNaviPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FBFE55E41EEFDD2B00461DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 92U93F5ZFJ;
+				INFOPLIST_FILE = testNaviPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suning.testNaviPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testNaviPop.app/testNaviPop";
+			};
+			name = Debug;
+		};
+		FBFE55E51EEFDD2B00461DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 92U93F5ZFJ;
+				INFOPLIST_FILE = testNaviPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suning.testNaviPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testNaviPop.app/testNaviPop";
+			};
+			name = Release;
+		};
+		FBFE55E71EEFDD2B00461DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 92U93F5ZFJ;
+				INFOPLIST_FILE = testNaviPopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suning.testNaviPopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = testNaviPop;
+			};
+			name = Debug;
+		};
+		FBFE55E81EEFDD2B00461DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 92U93F5ZFJ;
+				INFOPLIST_FILE = testNaviPopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suning.testNaviPopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = testNaviPop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBFE55AE1EEFDD2B00461DC5 /* Build configuration list for PBXProject "testNaviPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFE55DE1EEFDD2B00461DC5 /* Debug */,
+				FBFE55DF1EEFDD2B00461DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBFE55E01EEFDD2B00461DC5 /* Build configuration list for PBXNativeTarget "testNaviPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFE55E11EEFDD2B00461DC5 /* Debug */,
+				FBFE55E21EEFDD2B00461DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBFE55E31EEFDD2B00461DC5 /* Build configuration list for PBXNativeTarget "testNaviPopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFE55E41EEFDD2B00461DC5 /* Debug */,
+				FBFE55E51EEFDD2B00461DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBFE55E61EEFDD2B00461DC5 /* Build configuration list for PBXNativeTarget "testNaviPopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFE55E71EEFDD2B00461DC5 /* Debug */,
+				FBFE55E81EEFDD2B00461DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBFE55AB1EEFDD2B00461DC5 /* Project object */;
+}

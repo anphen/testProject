@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dl6-aJ-NvC">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--fitst-->
+        <scene sceneID="oP1-EG-bXh">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="26z-T8-fdE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="a1V-hO-zae" customClass="ZXFirstViewController" customModule="Swift_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FJS-WP-Kbd"/>
+                        <viewControllerLayoutGuide type="bottom" id="iC7-Fi-Ptz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c5D-yj-Mze">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhB-Ue-rgl">
+                                <rect key="frame" x="172.5" y="318" width="31" height="30"/>
+                                <state key="normal" title="测试"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zhB-Ue-rgl" firstAttribute="centerX" secondItem="c5D-yj-Mze" secondAttribute="centerX" id="lRV-fb-s5H"/>
+                            <constraint firstItem="zhB-Ue-rgl" firstAttribute="centerY" secondItem="c5D-yj-Mze" secondAttribute="centerY" id="rCr-bX-YfE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="fitst" id="wLn-fg-GxU"/>
+                    <connections>
+                        <segue destination="Kqt-Cp-evS" kind="modal" identifier="showLogin" id="FMP-Kn-hbZ"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1812" y="-532.0839580209896"/>
+        </scene>
+        <!--First-->
+        <scene sceneID="bsH-HW-mfR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dl6-aJ-NvC" customClass="ZXNavigationController" customModule="Swift_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="First" image="TabBar_home_23x23_" selectedImage="TabBar_home_23x23_selected" id="MZs-h4-L9W"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3hy-7n-ptg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="a1V-hO-zae" kind="relationship" relationship="rootViewController" id="4CR-nJ-8um"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F0p-YB-7mp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="872.79999999999995" y="-532.0839580209896"/>
+        </scene>
+        <!--login&Register-->
+        <scene sceneID="zMb-nc-siq">
+            <objects>
+                <viewControllerPlaceholder storyboardName="login&amp;Register" id="Kqt-Cp-evS" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LUU-wS-kck" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1811" y="-61"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TabBar_home_23x23_" width="23" height="23"/>
+        <image name="TabBar_home_23x23_selected" width="23" height="23"/>
+    </resources>
+</document>

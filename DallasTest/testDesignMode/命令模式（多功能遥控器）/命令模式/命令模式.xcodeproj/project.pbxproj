@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D105A061DF275F900800D6F /* RemoteLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D105A051DF275F900800D6F /* RemoteLoader.m */; };
+		0DCBC26F1DC8B718007C710B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBC26E1DC8B718007C710B /* main.m */; };
+		0DCBC27A1DC8B775007C710B /* LightOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBC2791DC8B775007C710B /* LightOnCommand.m */; };
+		0DCBC2811DC8B800007C710B /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBC2801DC8B800007C710B /* Light.m */; };
+		0DCBC2841DC8B8E1007C710B /* LightOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBC2831DC8B8E1007C710B /* LightOffCommand.m */; };
+		0DCBC2871DC8B91B007C710B /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBC2861DC8B91B007C710B /* RemoteControl.m */; };
+		0DCBC28A1DC8BFC6007C710B /* CDPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBC2891DC8BFC6007C710B /* CDPlayer.m */; };
+		0DCBC2931DC8C0AB007C710B /* CDPlayOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBC2921DC8C0AB007C710B /* CDPlayOnCommand.m */; };
+		0DCBC2961DC8C0BB007C710B /* CDPlayerOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBC2951DC8C0BB007C710B /* CDPlayerOffCommand.m */; };
+		0DCBC2991DC8C3B7007C710B /* noCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBC2981DC8C3B7007C710B /* noCommand.m */; };
+		0DCBC2A01DC9801B007C710B /* macroCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBC29F1DC9801B007C710B /* macroCommand.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0DCBC2691DC8B718007C710B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D105A041DF275F900800D6F /* RemoteLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteLoader.h; sourceTree = "<group>"; };
+		0D105A051DF275F900800D6F /* RemoteLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteLoader.m; sourceTree = "<group>"; };
+		0D105A071DF3BAAA00800D6F /* serialObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = serialObject.h; sourceTree = "<group>"; };
+		0DCBC26B1DC8B718007C710B /* 命令模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "命令模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DCBC26E1DC8B718007C710B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DCBC2751DC8B72D007C710B /* CommandInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandInterface.h; sourceTree = "<group>"; };
+		0DCBC2781DC8B775007C710B /* LightOnCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightOnCommand.h; sourceTree = "<group>"; };
+		0DCBC2791DC8B775007C710B /* LightOnCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightOnCommand.m; sourceTree = "<group>"; };
+		0DCBC27F1DC8B800007C710B /* Light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		0DCBC2801DC8B800007C710B /* Light.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
+		0DCBC2821DC8B8E1007C710B /* LightOffCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightOffCommand.h; sourceTree = "<group>"; };
+		0DCBC2831DC8B8E1007C710B /* LightOffCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightOffCommand.m; sourceTree = "<group>"; };
+		0DCBC2851DC8B91B007C710B /* RemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteControl.h; sourceTree = "<group>"; };
+		0DCBC2861DC8B91B007C710B /* RemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteControl.m; sourceTree = "<group>"; };
+		0DCBC2881DC8BFC6007C710B /* CDPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPlayer.h; sourceTree = "<group>"; };
+		0DCBC2891DC8BFC6007C710B /* CDPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPlayer.m; sourceTree = "<group>"; };
+		0DCBC2911DC8C0AB007C710B /* CDPlayOnCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPlayOnCommand.h; sourceTree = "<group>"; };
+		0DCBC2921DC8C0AB007C710B /* CDPlayOnCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPlayOnCommand.m; sourceTree = "<group>"; };
+		0DCBC2941DC8C0BB007C710B /* CDPlayerOffCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPlayerOffCommand.h; sourceTree = "<group>"; };
+		0DCBC2951DC8C0BB007C710B /* CDPlayerOffCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPlayerOffCommand.m; sourceTree = "<group>"; };
+		0DCBC2971DC8C3B7007C710B /* noCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = noCommand.h; sourceTree = "<group>"; };
+		0DCBC2981DC8C3B7007C710B /* noCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = noCommand.m; sourceTree = "<group>"; };
+		0DCBC29E1DC9801B007C710B /* macroCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macroCommand.h; sourceTree = "<group>"; };
+		0DCBC29F1DC9801B007C710B /* macroCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = macroCommand.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DCBC2681DC8B718007C710B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D105A031DF275D500800D6F /* 命令装配者 */ = {
+			isa = PBXGroup;
+			children = (
+				0D105A041DF275F900800D6F /* RemoteLoader.h */,
+				0D105A051DF275F900800D6F /* RemoteLoader.m */,
+			);
+			name = "命令装配者";
+			sourceTree = "<group>";
+		};
+		0DCBC2621DC8B718007C710B = {
+			isa = PBXGroup;
+			children = (
+				0DCBC26D1DC8B718007C710B /* 命令模式 */,
+				0DCBC26C1DC8B718007C710B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DCBC26C1DC8B718007C710B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DCBC26B1DC8B718007C710B /* 命令模式 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DCBC26D1DC8B718007C710B /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				0D105A071DF3BAAA00800D6F /* serialObject.h */,
+				0DCBC27C1DC8B7B1007C710B /* 接口 */,
+				0D105A031DF275D500800D6F /* 命令装配者 */,
+				0DCBC27E1DC8B7EA007C710B /* 命令调用者 */,
+				0DCBC27D1DC8B7BD007C710B /* 具体命令 */,
+				0DCBC27B1DC8B79A007C710B /* 命令接受者 */,
+				0DCBC26E1DC8B718007C710B /* main.m */,
+			);
+			path = "命令模式";
+			sourceTree = "<group>";
+		};
+		0DCBC27B1DC8B79A007C710B /* 命令接受者 */ = {
+			isa = PBXGroup;
+			children = (
+				0DCBC27F1DC8B800007C710B /* Light.h */,
+				0DCBC2801DC8B800007C710B /* Light.m */,
+				0DCBC2881DC8BFC6007C710B /* CDPlayer.h */,
+				0DCBC2891DC8BFC6007C710B /* CDPlayer.m */,
+			);
+			name = "命令接受者";
+			sourceTree = "<group>";
+		};
+		0DCBC27C1DC8B7B1007C710B /* 接口 */ = {
+			isa = PBXGroup;
+			children = (
+				0DCBC2751DC8B72D007C710B /* CommandInterface.h */,
+			);
+			name = "接口";
+			sourceTree = "<group>";
+		};
+		0DCBC27D1DC8B7BD007C710B /* 具体命令 */ = {
+			isa = PBXGroup;
+			children = (
+				0DCBC29E1DC9801B007C710B /* macroCommand.h */,
+				0DCBC29F1DC9801B007C710B /* macroCommand.m */,
+				0DCBC2971DC8C3B7007C710B /* noCommand.h */,
+				0DCBC2981DC8C3B7007C710B /* noCommand.m */,
+				0DCBC2781DC8B775007C710B /* LightOnCommand.h */,
+				0DCBC2791DC8B775007C710B /* LightOnCommand.m */,
+				0DCBC2821DC8B8E1007C710B /* LightOffCommand.h */,
+				0DCBC2831DC8B8E1007C710B /* LightOffCommand.m */,
+				0DCBC2911DC8C0AB007C710B /* CDPlayOnCommand.h */,
+				0DCBC2921DC8C0AB007C710B /* CDPlayOnCommand.m */,
+				0DCBC2941DC8C0BB007C710B /* CDPlayerOffCommand.h */,
+				0DCBC2951DC8C0BB007C710B /* CDPlayerOffCommand.m */,
+			);
+			name = "具体命令";
+			sourceTree = "<group>";
+		};
+		0DCBC27E1DC8B7EA007C710B /* 命令调用者 */ = {
+			isa = PBXGroup;
+			children = (
+				0DCBC2851DC8B91B007C710B /* RemoteControl.h */,
+				0DCBC2861DC8B91B007C710B /* RemoteControl.m */,
+			);
+			name = "命令调用者";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DCBC26A1DC8B718007C710B /* 命令模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DCBC2721DC8B718007C710B /* Build configuration list for PBXNativeTarget "命令模式" */;
+			buildPhases = (
+				0DCBC2671DC8B718007C710B /* Sources */,
+				0DCBC2681DC8B718007C710B /* Frameworks */,
+				0DCBC2691DC8B718007C710B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "命令模式";
+			productName = "命令模式";
+			productReference = 0DCBC26B1DC8B718007C710B /* 命令模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DCBC2631DC8B718007C710B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Mia;
+				TargetAttributes = {
+					0DCBC26A1DC8B718007C710B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0DCBC2661DC8B718007C710B /* Build configuration list for PBXProject "命令模式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DCBC2621DC8B718007C710B;
+			productRefGroup = 0DCBC26C1DC8B718007C710B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DCBC26A1DC8B718007C710B /* 命令模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DCBC2671DC8B718007C710B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCBC2811DC8B800007C710B /* Light.m in Sources */,
+				0DCBC26F1DC8B718007C710B /* main.m in Sources */,
+				0DCBC2841DC8B8E1007C710B /* LightOffCommand.m in Sources */,
+				0DCBC27A1DC8B775007C710B /* LightOnCommand.m in Sources */,
+				0DCBC2871DC8B91B007C710B /* RemoteControl.m in Sources */,
+				0DCBC2961DC8C0BB007C710B /* CDPlayerOffCommand.m in Sources */,
+				0DCBC2A01DC9801B007C710B /* macroCommand.m in Sources */,
+				0D105A061DF275F900800D6F /* RemoteLoader.m in Sources */,
+				0DCBC28A1DC8BFC6007C710B /* CDPlayer.m in Sources */,
+				0DCBC2931DC8C0AB007C710B /* CDPlayOnCommand.m in Sources */,
+				0DCBC2991DC8C3B7007C710B /* noCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0DCBC2701DC8B718007C710B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0DCBC2711DC8B718007C710B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0DCBC2731DC8B718007C710B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0DCBC2741DC8B718007C710B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DCBC2661DC8B718007C710B /* Build configuration list for PBXProject "命令模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DCBC2701DC8B718007C710B /* Debug */,
+				0DCBC2711DC8B718007C710B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DCBC2721DC8B718007C710B /* Build configuration list for PBXNativeTarget "命令模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DCBC2731DC8B718007C710B /* Debug */,
+				0DCBC2741DC8B718007C710B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DCBC2631DC8B718007C710B /* Project object */;
+}

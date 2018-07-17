@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ojo-dU-FQE">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--second-->
+        <scene sceneID="Tx2-Q9-orO">
+            <objects>
+                <viewController id="jnn-5B-wCs" customClass="ZXSecondViewController" customModule="Swift_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FUi-Al-9wv"/>
+                        <viewControllerLayoutGuide type="bottom" id="N10-AS-Oca"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xak-gi-4d2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="second" id="OQs-r3-MLq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ors-bF-b80" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1812" y="212.74362818590706"/>
+        </scene>
+        <!--Second-->
+        <scene sceneID="Ypx-5g-okE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ojo-dU-FQE" customClass="ZXNavigationController" customModule="Swift_Storyboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Second" image="TabBar_category_23x23_" selectedImage="TabBar_category_23x23_selected" id="0wW-gR-D1c"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="14O-kv-w3P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jnn-5B-wCs" kind="relationship" relationship="rootViewController" id="gj2-M7-fWO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PKp-aB-yQk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="872.79999999999995" y="212.74362818590706"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TabBar_category_23x23_" width="23" height="23"/>
+        <image name="TabBar_category_23x23_selected" width="23" height="23"/>
+    </resources>
+</document>
