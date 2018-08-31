@@ -33,7 +33,6 @@
     if (_index == 1 ||_index == 11) {
         self.backgroundColor = [UIColor greenColor];
     }
-    
 }
 
 @end
