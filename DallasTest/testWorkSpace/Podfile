@@ -6,7 +6,9 @@ xcodeproj 'project(OC)/project(OC).xcodeproj'
 
 target 'project(OC)' do
 
-pod ‘Masonry’
+pod 'Masonry'
+
+Pod 'YYKit'
 
 end
 

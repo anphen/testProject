@@ -19,7 +19,6 @@
 @property (nonatomic, strong) UICollectionView *mainWaterFall;
 @property (nonatomic, strong) ZXWaterFallLayout *fallLayout;
 
-
 @end
 
 @implementation ZXWaterFallController
